@@ -1,0 +1,13 @@
+﻿- type: reaction # gdrulz
+  id: Psilacrazene
+  reactants:
+    Siderlac:
+      amount: 1
+    Tricordrazine:
+      amount: 1
+    Ephedrine:
+      amount: 1
+    Benzene:
+      amount: 1
+  products:
+    Psilacrazene: 4

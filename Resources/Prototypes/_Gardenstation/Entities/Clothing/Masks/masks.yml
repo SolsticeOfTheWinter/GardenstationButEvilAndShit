@@ -1,0 +1,48 @@
+﻿- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskTwistedGenius
+  name: NanoTrasen fanatic hood
+  description: embroidered on the inside of the mask is "twisted genius 400 Years of Service". This one seems to call to you...
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/Mask/white_morpheus.rsi
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/Mask/white_morpheus.rsi
+    equipDelay: 15
+    unequipDelay: 1200
+  - type: IngestionBlocker
+    blockSmokeIngestion: true
+  - type: BreathMask
+  - type: AddAccentClothing
+    accent: ReplacementAccent
+    replacement: mumble
+  - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    - Hair
+  - type: StaminaDamageResistance
+    coefficient: 0.95 # 5% stamdgm resist?
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskLoGimp
+  name: NanoTrasen hood
+  description: embroidered on the inside of the mask is "twisted genius 400 Years of Service"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/Mask/white_morpheus.rsi
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/Mask/white_morpheus.rsi
+  - type: IngestionBlocker
+  - type: AddAccentClothing
+    accent: ReplacementAccent
+    replacement: mumble
+  - type: IdentityBlocker
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    - Hair

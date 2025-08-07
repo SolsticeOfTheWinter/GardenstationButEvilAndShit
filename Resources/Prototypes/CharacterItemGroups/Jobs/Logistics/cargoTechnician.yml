@@ -77,3 +77,9 @@
       id: LoadoutCargoTechnicianUniformHephAlt
     - type: loadout
       id: LoadoutCargoTechnicianUniformNT
+    - type: loadout #gd added
+      id: LoadoutCargoTechnicianUniformTripps
+    - type: loadout
+      id: LoadoutCargoTechnicianUniformTrippNT
+    - type: loadout
+      id: LoadoutCargoTechnicianUniformTrippOE

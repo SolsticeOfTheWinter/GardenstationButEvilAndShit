@@ -1,0 +1,52 @@
+﻿- type: randomHumanoidSettings
+  id: CargoGimp
+  randomizeName: true
+  parent: EventHumanoidMindShielded
+  speciesBlacklist:
+  - Shadowkin
+  - Monkey
+  - Kobold
+  - Abductor
+  components:
+     - type: RandomHumanoidAppearance
+       randomizeName: true
+     - type: GhostRole
+       name: Logistics Fanatic
+       description: You Are The Twisted Genius (400 Years of Service)
+       rules: Do as the LO says. The Company Is Your God.
+       raffle:
+         settings: short
+     - type: GhostTakeoverAvailable
+     - type: Loadout
+       prototypes: [ CargoGimpGear ]
+     - type: RandomMetadata
+       nameSegments:
+       - fake_human_first
+       - names_last
+
+- type: entity
+  id: RandomHumanoidSpawnerCargoGimp
+  name: Cargo Gimp
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: _Gardenstation/Clothing/Mask/white_morpheus.rsi
+    state: icon
+  - type: RandomMetadata
+    nameSegments:
+    - fake_human_first
+    - names_last
+  - type: RandomHumanoidSpawner
+    settings: CargoGimp
+
+- type: startingGear
+  id: CargoGimpGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNTTripps
+    shoes: ClothingShoesColorBrown
+    id: CargoPDA
+    ears: ClothingHeadsetCargo
+    mask: ClothingMaskTwistedGenius
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterVestCargoGimp
+    pocket1: AppraisalTool

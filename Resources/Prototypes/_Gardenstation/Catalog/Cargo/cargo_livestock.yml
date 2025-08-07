@@ -1,0 +1,9 @@
+﻿- type: cargoProduct
+  id: LivestockGimp
+  icon:
+    sprite: _Gardenstation/Clothing/Mask/white_morpheus.rsi
+    state: icon
+  product: CrateNPCGimp
+  cost: 7000
+  category: cargoproduct-category-name-livestock
+  group: market

@@ -1,0 +1,42 @@
+﻿- type: entity
+  parent: [ ClothingOuterBase, AllowSuitStorageClothingGasTanks ]
+  id: ClothingOuterVestCargo
+  name: logistics officer's vest
+  description: a khaki vest with interior pockets, theres even a name tag!
+  components:
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/OuterClothing/Vests/cargo_vest.rsi
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/OuterClothing/Vests/cargo_vest.rsi
+  - type: Storage
+    grid:
+    - 0,0,3,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: [ ]
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+
+- type: entity
+  parent: [ ClothingOuterBase, AllowSuitStorageClothingGasTanks, ClothingOuterVestCargo ]
+  id: ClothingOuterVestCargoGimp
+  name: Penance Vest
+  description: a khaki vest with interior pockets. Sewn into the collar is a bio-symbiote, meshing the vest with your person
+  components:
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/OuterClothing/Vests/cargo_vest.rsi
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/OuterClothing/Vests/cargo_vest.rsi
+    equipDelay: 15
+    unequipDelay: 1200
+  - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+  - type: StaminaDamageResistance
+    coefficient: 0.90 # 5% stamdgm resist?

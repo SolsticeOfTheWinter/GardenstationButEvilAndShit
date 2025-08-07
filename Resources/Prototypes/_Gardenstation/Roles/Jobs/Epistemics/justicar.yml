@@ -76,7 +76,7 @@
     id: JusticarPDA
     ears: ClothingHeadsetJustiScience #Justicar has an over-ear headset with sec, epi, and command comms
     gloves: ClothingHandsGlovesJusticarPsychalWrappings # fix the sprite not showing at some point
-    outerClothing: ClothingOuterCoatJusticarFur
+    outerClothing: ClothingOuterJusticarPsychalRig # new rig peep the specs aha jk i ripped this off a hunterseeker at a europan psipost we shelled last week
     belt: ClothingBeltJusticarPsychalBelt # this probably works ok now
     pocket1: BookPsionicsGuidebook
   storage:

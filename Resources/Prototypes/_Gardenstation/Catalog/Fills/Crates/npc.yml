@@ -1,0 +1,10 @@
+﻿- type: entity
+  id: CrateNPCGimp
+  parent: CrateLivestock
+  name: Cargo Servant
+  description: A crate containing a sticky helping hand.
+  components:
+  - type: StorageFill
+    contents:
+    - id: RandomHumanoidSpawnerCargoGimp
+      amount: 1

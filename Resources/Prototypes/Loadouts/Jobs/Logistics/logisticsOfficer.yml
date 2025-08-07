@@ -59,7 +59,19 @@
     - ClothingNeckCloakQm
 
 # Mask
-
+- type: loadout #gd added
+  id: LoadoutCommandQMMaskLoGimp
+  category: JobsLogisticsLogisticsOfficer
+  cost: 2
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutLogisticsOfficerMask
+  - !type:CharacterJobRequirement
+    jobs:
+    - Quartermaster
+  items:
+  - ClothingMaskLoGimp
 # Outer
 - type: loadout
   id: LoadoutQMWinterCoat
@@ -73,7 +85,18 @@
     - Quartermaster
   items:
   - ClothingOuterWinterQM
-
+- type: loadout
+  id: LoadoutQMOuterVestPockets
+  category: JobsLogisticsLogisticsOfficer
+  cost: 0
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutLogisticsOfficerOuter
+  - !type:CharacterJobRequirement
+    jobs:
+    - Quartermaster
+  items:
+  - ClothingOuterVestCargo
 # Shoes
 - type: loadout
   id: LoadoutCommandQMShoesBootsWinter
@@ -117,3 +140,45 @@
         - Quartermaster
   items:
     - ClothingUniformJumpskirtQMTurtleneck
+
+- type: loadout #gd added
+  id: LoadoutCommandQMUniformCorpoTripps
+  category: JobsLogisticsLogisticsOfficer
+  cost: 5
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutLogisticsOfficerUniforms
+  - !type:CharacterJobRequirement
+    jobs:
+    - Quartermaster
+  items:
+  - ClothingUniformJumpsuitCorpoTripps
+
+- type: loadout
+  id: LoadoutCommandQMUniformCorpoTrippNT
+  category: JobsLogisticsLogisticsOfficer
+  cost: 5
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutLogisticsOfficerUniforms
+  - !type:CharacterJobRequirement
+    jobs:
+    - Quartermaster
+  items:
+  - ClothingUniformJumpsuitNTTripps
+
+- type: loadout
+  id: LoadoutCommandQMUniformCorpoTrippOE
+  category: JobsLogisticsLogisticsOfficer
+  cost: 5
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutLogisticsOfficerUniforms
+  - !type:CharacterJobRequirement
+    jobs:
+    - Quartermaster
+  items:
+  - ClothingUniformJumpsuitOETripps

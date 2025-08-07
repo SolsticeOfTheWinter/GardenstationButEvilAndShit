@@ -19,7 +19,6 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   The following are shielded:
   - Current game mode and possible antags during the current game mode.
-  - Events from previous rounds.
   - Events you experienced as a different character.
   - All information related to the player of a character rather than the character itself. (See "Metafriending and Metagrudging" below.)
   - All information gained while dead or a ghost.
@@ -28,10 +27,22 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   This does not prevent knowing that a shift will end, but does prohibit things like preparing to kill people at central command when roleplay rules stop being enforced on LRP.
 
+  ## Corporate Secrets
+
+  CENTCOM holds certain high-value company secrets, the captain, select members of command staff, and CENTCOM dignitaries are privy to said information.
+  Revealing corporate secrets to non-command is punishable by contract termination, brigging, and in certain situations, immediate execution via the blueshield officer or CENTCOM Corporate Liquidation Striketeam.
+  Acting on corporate secrets before any antags they relate to are revealed is STRICTLY PROHIBITED.
+
+  These are a list of corporate secrets and who is keyed into them.
+
+  - Nuclear Operatives : Blueshield, NTR/Nanotrasen CLs, Captain, HOS (per round basis, on non-captain/HOS duty it is against metashield to act on or reveal company secrets and is punishable OOC to do so)
+  - Devils : Justicar, Mystagogue, CENTCOM employees, Captain ( per round basis, unknown when off-duty, and unaware to the full metaphysical extent, simply aware that there are strange men in black suits onboard occasionally. )
+  - Revolutionaries : all command and dignitary staff are aware of the potentiality of a mutiny, as would any commanding officer heading a militarized vessel. This is not an excuse to run your ship like a prison or dictatorship, you should treat your crew as you would anyone else- there's no need to seek a mutiny through incompetence.
+
   ## Nuclear Operatives
 
   Nukies are considered propaganda by Nanotrasen, and crew isn't informed on them at all.
-  Posters seen on-station are ignored and called syndicate propaganda.
+  Posters seen on-station are ignored and are seen in-character as a reference to the Gorflix TV series Nukies, and various Gorlex Girlfriends Nukies themed magazine issues.
 
   The fact that the nuke disk must be protected and could be used by a bad actor to try to destroy the station is not shielded.
 
@@ -40,6 +51,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - an operative name
   - a War Ops announcement
   - being a nuclear operative
+  - being keyed into CENTCOM corporate secrets. This does not allow you to reveal information on the antag to the crew. Remember, There Are No Nukies On The Station.
 
   ## Changelings
 
@@ -66,6 +78,8 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - witnessing a crewmember drawing a rune
   - witnessing a crewmember harvesting a reality fracture
   - witnessing a crewmember using their powers
+  - being a psi-enforcer and coming across or detecting a rift.
+  - being the justicar, though this does not allow you to go out of your way to over-prepare for heretics at the start of every shift. The justicar simply knows all.
 
   ## Devils
 
@@ -76,7 +90,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
   The revealing condition for this shield is any of the following:
   - You are a Devil.
-  - You are the Chaplain, a lawyer, or a member of Central Command. (Including BSO and NTR)
+  - You are the Chaplain, a lawyer, the justicar, or a member of Central Command. (Including BSO, NTR/CL, and to an extent- Captain)
   - You have made a deal with the Devil.
   - You have witnessed someone make a deal.
 
@@ -104,7 +118,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   ## Deathsquad
 
   Deathsquad is known to exist - per the posters on the station, but they are not known as a crew killsquad, instead known as an elite team sent into stations to handle extreme threats even the best of ERT Security leaders could handle.
-  The station's Nanotrasen Representative and Blueshield Officer are aware that Deathsquad is a crew killsquad, but are heavily prohibited to mention it, and will be dealt with after, or during, the shift.
+  The station's Nanotrasen Representative, Nanotrasen Corporate Liaison, and the Blueshield Officer are aware that Deathsquad is a crew killsquad, but are heavily prohibited to mention it, and will be dealt with after, or during, the shift.
 
   In private conversations, faxes, or phone calls, both BSO & NTR are advised to use the term 'Janitor Squad' to refer to the Deathsquad.
   Crew can also choose to roleplay as if they've seen deathsquad movies, knowing limited aspects of their gear one would reasonably know watching an action-movie.
@@ -161,15 +175,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   - Giving a character additional access or a job because you are friends with the player who is playing that character.
   - Trusting a character because you are friends with the player who is playing that character.
   - Not fighting a character because you are friends with the player who is playing that character.
-  - Ignoring your objective to kill a character because your character and theirs became friends in a previous round.
 
   ## Metagrudging Examples
   These are all examples of things that are prohibited by at least one metashield item that is never revealed IC.
   - Not giving a character additional access or a job because you are mad at or don't like the player who is playing that character.
   - Not trusting a character because you are mad at or don't like the player who is playing that character.
-  - Starting a fight with a character because of something that they did last round.
   - Starting a fight with a character because they killed you while you were playing a different character.
-  - Targeting or harassing a character based on anything which that character did outside the current round.
   - Targeting or harassing a character based on anything which the character's player did while not playing the character.
 
   ## Explicitly Not Shielded

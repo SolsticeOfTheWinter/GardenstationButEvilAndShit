@@ -1,0 +1,122 @@
+﻿- type: entity
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpsuitCorpoTripps
+  name: streetkid cargowear
+  description: a sleeveless turtleneck and roomy cargopants... The chain doesnt really attach to anything but you think it makes you look tight as fuck
+  components:
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/Uniform/Jumpsuit/corpo_tripps.rsi
+    layers:
+    - state: icon
+#      color: "#b3b3b3"
+#    - state: trinkets-icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+#        color: "#b3b3b3"
+#      - state: trinkets-inhand-left
+      right:
+      - state: inhand-right
+#        color: "#b3b3b3"
+#      - state: trinkets-inhand-right
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/Uniform/Jumpsuit/corpo_tripps.rsi
+    clothingVisuals:
+      jumpsuit:
+      - state: equipped-INNERCLOTHING
+#        color: "#b3b3b3"
+      - state: folded-equipped-INNERCLOTHING
+  - type: Storage
+    grid:
+    - 0,0,3,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: [ ]
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+
+- type: entity
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpsuitNTTripps
+  name: NanoTrasen Cargowear
+  description: a sleeveless turtleneck and roomy cargopants... A small nametag is in the pocket... Whos Morpheus?
+  components:
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/Uniform/Jumpsuit/corpo_tripps.rsi
+    layers:
+    - state: icon
+      color: "#3d4f66"
+  #    - state: trinkets-icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      #        color: "#b3b3b3"
+      #      - state: trinkets-inhand-left
+      right:
+      - state: inhand-right
+  #        color: "#b3b3b3"
+  #      - state: trinkets-inhand-right
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/Uniform/Jumpsuit/corpo_tripps.rsi
+    clothingVisuals:
+      jumpsuit:
+      - state: equipped-INNERCLOTHING
+        color: "#3d4f66"
+      - state: folded-equipped-INNERCLOTHING
+  - type: Storage
+    grid:
+    - 0,0,3,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+
+- type: entity
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
+  id: ClothingUniformJumpsuitOETripps
+  name: Orion Express Cargowear
+  description: a sleeveless turtleneck and roomy cargopants... These smell like cardboard mulch...
+  components:
+  - type: Sprite
+    sprite: _Gardenstation/Clothing/Uniform/Jumpsuit/corpo_tripps.rsi
+    layers:
+    - state: icon
+      color: "#7a6347"
+  #    - state: trinkets-icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+      #        color: "#b3b3b3"
+      #      - state: trinkets-inhand-left
+      right:
+      - state: inhand-right
+  #        color: "#b3b3b3"
+  #      - state: trinkets-inhand-right
+  - type: Clothing
+    sprite: _Gardenstation/Clothing/Uniform/Jumpsuit/corpo_tripps.rsi
+    clothingVisuals:
+      jumpsuit:
+      - state: equipped-INNERCLOTHING
+        color: "#7a6347"
+      - state: folded-equipped-INNERCLOTHING
+  - type: Storage
+    grid:
+    - 0,0,3,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface

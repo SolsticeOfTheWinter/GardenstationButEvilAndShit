@@ -131,3 +131,45 @@
         - NanoTrasen
   items:
     - ClothingUniformJumpsuitNTCargoTech
+
+- type: loadout #gd added
+  id: LoadoutCargoTechnicianUniformTrippOE
+  category: JobsLogisticsCargoTechnician
+  cost: 5
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutCargoTechnicianUniforms
+  - !type:CharacterJobRequirement
+    jobs:
+    - CargoTechnician
+  items:
+  - ClothingUniformJumpsuitOETripps
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformTrippNT
+  category: JobsLogisticsCargoTechnician
+  cost: 5
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutCargoTechnicianUniforms
+  - !type:CharacterJobRequirement
+    jobs:
+    - CargoTechnician
+  items:
+  - ClothingUniformJumpsuitNTTripps
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformTripps
+  category: JobsLogisticsCargoTechnician
+  cost: 5
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutCargoTechnicianUniforms
+  - !type:CharacterJobRequirement
+    jobs:
+    - CargoTechnician
+  items:
+  - ClothingUniformJumpsuitCorpoTripps

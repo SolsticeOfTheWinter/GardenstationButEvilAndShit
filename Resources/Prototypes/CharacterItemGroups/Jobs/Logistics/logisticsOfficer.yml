@@ -50,17 +50,20 @@
     - type: loadout
       id: LoadoutCommandQMNeckCloak
 
-#- type: characterItemGroup
-#  id: LoadoutLogisticsOfficerMask
-#  maxItems: 1
-#  items:
-#
+- type: characterItemGroup
+  id: LoadoutLogisticsOfficerMask
+  maxItems: 1
+  items:
+  - type: loadout
+    id: LoadoutCommandQMMaskLoGimp
 - type: characterItemGroup
   id: LoadoutLogisticsOfficerOuter
   maxItems: 1
   items:
     - type: loadout
       id: LoadoutLogisticsOfficeOuter
+    - type: loadout
+      id: LoadoutQMOuterVestPockets
 
 - type: characterItemGroup
   id: LoadoutLogisticsOfficerShoes
@@ -77,3 +80,9 @@
       id: LoadoutCommandQMUniformTurtleneck
     - type: loadout
       id: LoadoutCommandQMUniformTurtleneckSkirt
+    - type: loadout #gd added
+      id: LoadoutCommandQMUniformCorpoTrippOE
+    - type: loadout
+      id: LoadoutCommandQMUniformCorpoTrippNT
+    - type: loadout
+      id: LoadoutCommandQMUniformCorpoTripps

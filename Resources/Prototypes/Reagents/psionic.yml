@@ -57,7 +57,7 @@
         damage:
           groups:
             Toxin: 2
-            Psionic: 10 # gd // cant take psi damage if theres no psyche to damage
+            Psionic: -10 # gd // cant take psi damage if theres no psyche to damage
       - !type:ChemRemovePsionic
         conditions:
         - !type:ReagentThreshold

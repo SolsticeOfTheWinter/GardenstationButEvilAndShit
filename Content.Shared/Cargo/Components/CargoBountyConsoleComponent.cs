@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Audio;
+using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -50,11 +50,13 @@ public sealed partial class CargoBountyConsoleComponent : Component
 public sealed class CargoBountyConsoleState : BoundUserInterfaceState
 {
     public List<CargoBountyData> Bounties;
+    public List<CargoBountyHistoryData> History;
     public TimeSpan UntilNextSkip;
 
-    public CargoBountyConsoleState(List<CargoBountyData> bounties, TimeSpan untilNextSkip)
+    public CargoBountyConsoleState(List<CargoBountyData> bounties, List<CargoBountyHistoryData> history, TimeSpan untilNextSkip)
     {
         Bounties = bounties;
+        History = history;
         UntilNextSkip = untilNextSkip;
     }
 }
@@ -80,3 +82,29 @@ public sealed class BountySkipMessage : BoundUserInterfaceMessage
         BountyId = bountyId;
     }
 }
+
+//imp edit start - cargo bounty claiming & status
+[Serializable, NetSerializable]
+public sealed class BountyClaimedMessage : BoundUserInterfaceMessage
+{
+    public string BountyId;
+
+    public BountyClaimedMessage(string bountyId)
+    {
+        BountyId = bountyId;
+    }
+}
+
+[Serializable, NetSerializable]
+public sealed class BountySetStatusMessage : BoundUserInterfaceMessage
+{
+    public string BountyId;
+    public int Status;
+
+    public BountySetStatusMessage(string bountyId, int status)
+    {
+        BountyId = bountyId;
+        Status = status;
+    }
+}
+//imp edit end

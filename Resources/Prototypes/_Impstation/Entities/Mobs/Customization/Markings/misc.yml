@@ -1036,8 +1036,8 @@
 
 - type: marking
   id: SharkminnowEyeliner
-  bodyPart: HeadTop
-  markingCategory: HeadTop
+  bodyPart: Face
+  markingCategory: Face
   speciesRestriction: [ Thaven ]
   forcedColoring: false
   followSkinColor: false

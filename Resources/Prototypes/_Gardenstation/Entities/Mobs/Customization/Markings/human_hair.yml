@@ -5,3 +5,11 @@
   sprites:
   - sprite: _Gardenstation/Mobs/Customization/human_hair.rsi
     state: tankgirl
+
+- type: marking
+  id: HumanHairSillyGirl
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+  - sprite: _Gardenstation/Mobs/Customization/human_hair.rsi
+    state: sillygirl

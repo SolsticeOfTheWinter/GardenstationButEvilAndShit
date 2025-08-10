@@ -7,6 +7,10 @@
         {
             "name": "tankgirl",
             "directions": 4
+        },
+        {
+            "name": "sillygirl",
+            "directions": 4
         }
     ]
 }

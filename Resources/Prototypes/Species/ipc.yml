@@ -63,6 +63,9 @@
       points: 6
       required: true
       defaultMarkings: [ MobIPCTorsoDefault ]
+    HeadTop:
+      points: 2
+      required: false
     HeadSide:
       points: 6
       required: false
